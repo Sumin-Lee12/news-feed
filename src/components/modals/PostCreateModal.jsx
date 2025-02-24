@@ -102,7 +102,7 @@ const PostCreateModal = ({ isPostCreateOpen, onClose }) => {
     if (selectError) {
       console.log('게시글 조회 중 에러 발생 => ', selectError);
       return;
-    }
+    }  
 
     setPosts((prev) => [...prev, selectData[0]]);
   };
